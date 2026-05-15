@@ -1,5 +1,3 @@
-<img align="left" src="https://raw.githubusercontent.com/joseguzman1337/8814au/main/Gemini_Generated_Image_v0p2mpv0p2mpv0p2.png" width="140">
-
 # 8814au
 
 **Linux Driver for USB WiFi Adapters based on the RTL8814AU Chipset**
@@ -63,7 +61,7 @@ See `supported-device-IDs` for full list.
 
 ```bash
 sudo pacman -S --noconfirm linux-headers dkms git iw
-git clone https://github.com/joseguzman1337/8814au.git
+git clone https://github.com/morrownr/8814au.git
 cd 8814au
 sudo ./install-driver.sh
 ```
@@ -77,7 +75,7 @@ Note: If using Manjaro on RasPi4B/5B, use `linux-rpi4-headers` instead.
 
 ```bash
 sudo apt install -y linux-headers-$(uname -r) build-essential dkms git libelf-dev rfkill iw
-git clone https://github.com/joseguzman1337/8814au.git
+git clone https://github.com/morrownr/8814au.git
 cd 8814au
 sudo ./install-driver.sh
 ```
@@ -91,7 +89,7 @@ For Kali on RasPi4B/5B, use `kalipi-kernel-headers` instead of `linux-headers-$(
 
 ```bash
 sudo dnf -y install git dkms kernel-devel
-git clone https://github.com/joseguzman1337/8814au.git
+git clone https://github.com/morrownr/8814au.git
 cd 8814au
 sudo ./install-driver.sh
 ```
@@ -103,7 +101,7 @@ sudo ./install-driver.sh
 
 ```bash
 sudo zypper install -t pattern devel_kernel dkms
-git clone https://github.com/joseguzman1337/8814au.git
+git clone https://github.com/morrownr/8814au.git
 cd 8814au
 sudo ./install-driver.sh
 ```
@@ -115,7 +113,7 @@ sudo ./install-driver.sh
 
 ```bash
 sudo apt install -y raspberrypi-kernel-headers build-essential dkms git
-git clone https://github.com/joseguzman1337/8814au.git
+git clone https://github.com/morrownr/8814au.git
 cd 8814au
 sudo ./install-driver.sh
 ```
@@ -127,7 +125,7 @@ sudo ./install-driver.sh
 
 ```bash
 sudo xbps-install linux-headers dkms git make
-git clone https://github.com/joseguzman1337/8814au.git
+git clone https://github.com/morrownr/8814au.git
 cd 8814au
 sudo ./install-driver.sh
 ```
